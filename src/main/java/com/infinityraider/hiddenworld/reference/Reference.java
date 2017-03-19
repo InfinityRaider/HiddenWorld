@@ -2,7 +2,7 @@ package com.infinityraider.hiddenworld.reference;
 
 public class Reference {
     public static final String MOD_ID = /*^${mod.id}^*/ "hiddenworld";
-    public static final String MOD_NAME = /*^${mod.name}^*/ "com.infinityraider.hiddenworld.HiddenWorld";
+    public static final String MOD_NAME = /*^${mod.name}^*/ "HiddenWorld";
     public static final String AUTHOR = /*^${mod.author}^*/ "InfinityRaider";
 
     public static final String VER_MAJOR = /*^${mod.version_major}^*/ "0";
