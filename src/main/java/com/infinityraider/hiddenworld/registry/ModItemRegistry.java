@@ -1,5 +1,8 @@
 package com.infinityraider.hiddenworld.registry;
 
+import com.infinityraider.hiddenworld.item.ItemDebugger;
+import net.minecraft.item.Item;
+
 public class ModItemRegistry {
     private static final ModItemRegistry INSTANCE = new ModItemRegistry();
 
@@ -7,7 +10,9 @@ public class ModItemRegistry {
         return INSTANCE;
     }
 
-    private ModItemRegistry() {}
+    private ModItemRegistry() {
+        this.itemDebugger = new ItemDebugger();
+    }
 
-
+    public final Item itemDebugger;
 }
